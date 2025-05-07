@@ -308,7 +308,13 @@ int main() {
 }
 
 </code></pre>
-<p>The add function is templated, so it can work with any numeric type (int, float, double, etc.).</p>
+<p>The add function is templated, so it can work with any numeric type (int, float, double, etc.).
+Here is the function:</p>
+<pre><code class="language-cpp">template &lt;typename T&gt;
+T add(T a, T b) {
+    return a + b;
+}
+</code></pre>
 
 
 
