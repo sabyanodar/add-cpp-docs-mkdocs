@@ -1,0 +1,7 @@
+site_name: Add C++ Docs
+theme:
+  name: material
+nav:
+  - Home: index.md
+  - Build: build.md
+  - Examples: examples.md
