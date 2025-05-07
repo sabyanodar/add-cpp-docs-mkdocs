@@ -15,3 +15,11 @@ int main() {
 ```
 
 The add function is templated, so it can work with any numeric type (int, float, double, etc.).
+Here is the function:
+
+```cpp
+template <typename T>
+T add(T a, T b) {
+    return a + b;
+}
+```
